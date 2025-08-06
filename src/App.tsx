@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Inscription from './composant/Inscription'
 import Verification from './composant/verification'
 import Invitation from './composant/invitation'
@@ -8,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <BrowserRouter>
