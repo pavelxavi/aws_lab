@@ -3,12 +3,13 @@ import Verification from './composant/verification'
 import Invitation from './composant/invitation'
 import Onboarding from './composant/onboarding'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+// import Progress from './composant/progress';
 import './App.css'
 
 function App() {
 
   return (
+    // <Progress/>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Inscription />} />
