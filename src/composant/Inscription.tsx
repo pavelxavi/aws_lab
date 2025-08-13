@@ -3,11 +3,16 @@ import Progress from "./progress"
 
 function Inscription() {
     return (
-        <div className="flex justify-between items-center">
-            <div className="hidden md:block">
-                <Progress/>
+        <div className="flex">
+            <div className="hidden flex-1 md:block ">
+                <img className="absolute mx-40" src="/IT ingeniery.svg" alt="IT ingeniery" />
+                <div className="bg-[#00539C0A] w-[85%] h-full mt-12">
+                    <div className="pt-32 px-16">
+                        <Progress />
+                    </div>
+                </div>
             </div>
-            <div>
+            <div className="flex-1">
                 <div className='flex justify-center m-10'>
                     <img className="md:hidden" src="/logo_worketyamo.svg" alt="logo_worketyamo" />
                     <b className="hidden md:block"><h1 className="flex justify-center items-center text-[3rem] text-[#00539C]">W<img src="/logo Wyamo kaki.svg" alt="Wyamo" />rketyamo</h1></b>
@@ -70,7 +75,7 @@ function Inscription() {
                 </footer>
                 <div>
                     <div className='flex justify-between items-center mt-12'>
-                        <div className='bg-[#FFA273] md:bg-[#00539C] h-2 w-[5rem] rounded-full'><h1> </h1></div>
+                        <div className='bg-[#FFA273] md:bg-[#00539C] h-2 w-[5rem] rounded-full'></div>
                         <div className='bg-[#D9D9D9] h-2 w-[5rem] rounded-full'><h1> </h1></div>
                         <div className='bg-[#D9D9D9] h-2 w-[5rem] rounded-full'><h1> </h1></div>
                         <div className='bg-[#D9D9D9] h-2 w-[5rem] rounded-full'><h1> </h1></div>
